@@ -64,7 +64,7 @@ Then run: python scripts/get_data_polygon.py
 - 429 Too Many Requests → increase PACE_SECONDS, or reduce tickers/dates.
 
 
-# Finally you can run the app:
+# Or you can run the app with the current data like this:
 
 # A) σ(30s) & σ(60s) viewer — App_draft.py by running:
 streamlit run app/App_draft.py
