@@ -1,0 +1,4 @@
+timestamp_utc,event_type,source,details
+2025-07-30T18:00:00Z,FOMC_statement,FederalReserve,Policy statement released
+2025-08-12T12:30:00Z,CPI_release,BLS,CPI July 2025
+
