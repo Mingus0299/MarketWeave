@@ -59,7 +59,7 @@ if subset.empty:
 subset = subset.sort_values("timestamp").drop_duplicates(subset=["timestamp"], keep="last")
 
 # CHART TAB 
-tab_chart, tab_model = st.tabs(["📈 Chart", "🤖 Nowcasting"])
+tab_chart, tab_model = st.tabs(["Chart", "Nowcasting"])
 
 with tab_chart:
     # VWAP + bands controls 
