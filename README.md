@@ -36,6 +36,9 @@ pip install streamlit plotly pandas pyarrow requests python-dotenv pytz
 pip install scikit-learn                # App.py (nowcasting) needs this
 pip install pandas-market-calendars     # optional: early closes/holidays
 
+You also need to create a .env file at the repo root:
+POLYGON_API_KEY=your_real_polygon_key_here
+
 
 # To add more data you can change it here:
 Open scripts/get_data_polygon.py and edit tickers and date range:
