@@ -106,5 +106,5 @@ Nowcasting tab
 
 # Credits
 Data: Polygon.io Aggregates v2
-Calendars (optional): pandas-market-calendars
+Calendars: pandas-market-calendars
 UI/Charts: Streamlit + Plotly
